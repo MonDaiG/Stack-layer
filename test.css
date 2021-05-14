@@ -1,0 +1,21 @@
+body{
+    margin:20px;
+    background:#123;
+    font-size: 32px;
+}
+body div{
+    color:blue;
+    /* 先に指定したbackgroundが一番先頭に来る */
+    background-image: url("./Gicon.png"),
+                    url("./banner.png"),
+                    url("./colorful_tiles_rep.jpg");
+    background-position: left 10px top 60px,
+                        center bottom,
+                        center center;
+                            
+    background-repeat: no-repeat,no-repeat,repeat;
+    background-size: auto,contain,auto;
+}
+body p{
+    color:darkred;
+}
